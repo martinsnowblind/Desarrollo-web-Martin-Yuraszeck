@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    color: #fff;
+    background-color: #5995a5;
+    padding: 20px 0;
+    /* Para habilitar los poderes de flexbox / sin esto el navegador ignora al flexbox */
+    display: flex;
+
+    /* Alineación horizontal */
+    justify-content: center;
+
+    /* Alineación a la izquierda
+    justify-content: start;*/
+    /* Alineación a la derecha
+    justify-content: start;*/
+}
+
+.header {
+    width: 70%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#buscador {
+    background-color: paleturquoise;
+    width: 150px; /* ancho */
+    height: 140px; /* alto */
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.buscador-uno {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.buscador-dos {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+
+.boton-buscar {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+
+h1 {
+    padding-top: 20px;
+}
+
+
+.margen {
+    padding-top: 12px;
+    margin-left: 20px;
+
+    border-top: 10px rebeccapurple;
+    border-left: 10px rebeccapurple;
+    border-right: 10px rebeccapurple;
+    border-bottom: 10px rebeccapurple;
+}
+
+#formulario {
+    background-color: aquamarine;
+    width: 300px; /* ancho */
+    height: 250px; /* alto */
+
+    margin-top: 20px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    margin-left: 20px;
+
+    padding-top: 5px;
+}
+
+/* Tarea aplicando grids */
+
+.box {
+    border-radius: 6px;
+    width:  80px;
+    height: 40px;
+    margin: 50px auto;
+}
+
+.box-uno {
+    background-color: mediumaquamarine;
+}
+
+.box-dos {
+    background-color: mediumpurple;
+    /* transition-property
+    transition- duration, transition solo se pueden poner los dos juntos */
+    transition: all 1.5s;
+}
+
+.box:hover {
+    transform: scale(4);
+}
+
+.container-circle div {
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.circle1 {
+    background-color: mediumaquamarine;
+    transition: all 1.5s linear;
+}
+
+.circle2 {
+    background-color: mediumpurple;
+    transition: all 1.5s ease-in;
+}
+
+.circle3 {
+    background-color: mediumturquoise;
+    transition: all 1.5s ease-in-out;
+}
+
+.circle4 {
+    background-color: mediumvioletred;
+    transition: all 1.5s ease-out;
+}
+
+.circle5 {
+    background-color: midnightblue;
+    transition: all 1.5s ease;
+}
+
+.container-circle:hover .circle1,
+.container-circle:hover .circle2,
+.container-circle:hover .circle3,
+.container-circle:hover .circle4,
+.container-circle:hover .circle5 {
+    transform tranlateX(200px)
+}
+
+/* Aquí termina la tarea aplicando grids */
+
+.hombre {
+    padding-top: 12px;
+}
+
+.mujer {
+    padding-top: 12px;
+}
+
+.nombre {
+    padding-top: 12px;
+}
+
+.apellido {
+    padding-top: 12px;
+}
+
+.tallas{
+    padding-top: 12px;
+}
+
+.enviar {
+    padding-top: 12px;
+}
+
+.imagen_1 {
+
+}
+
+footer {
+    padding-top: 10px;
+}
